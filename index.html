@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - Zinya (Test Alpha)</title>
+    <meta name="description" content="Politique de confidentialité pour les tests Alpha fermés de l'application Zinya sur Google Play Store">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://innovds.github.io/zinya-website/">
+    <meta property="og:title" content="Politique de Confidentialité - Zinya (Test Alpha)">
+    <meta property="og:description" content="Politique de confidentialité pour les tests Alpha fermés de l'application Zinya">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://innovds.github.io/zinya-website/">
+    <meta property="twitter:title" content="Politique de Confidentialité - Zinya (Test Alpha)">
+    <meta property="twitter:description" content="Politique de confidentialité pour les tests Alpha fermés de l'application Zinya">
+    
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔐</text></svg>">
+    
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --success-color: #28a745;
+            --warning-color: #ffc107;
+            --light-bg: #f8f9fa;
+            --border-color: #e0e0e0;
+            --text-color: #333;
+            --text-muted: #6c757d;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            line-height: 1.7; 
+            color: var(--text-color);
+            background-color: #fff;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px 0;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 12px;
+            margin: -20px -20px 40px -20px;
+            padding: 40px 20px;
+        }
+        
+        h1 { 
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        
+        h2 { 
+            color: var(--secondary-color); 
+            margin: 40px 0 20px 0;
+            font-size: 1.5em;
+            font-weight: 600;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--primary-color);
+        }
+        
+        h3 {
+            color: var(--secondary-color);
+            margin: 25px 0 15px 0;
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .highlight { 
+            background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+            padding: 20px;
+            border-left: 5px solid var(--warning-color);
+            margin: 25px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .contact { 
+            background: linear-gradient(135deg, #d4edda, #a8e6cf);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+            border-left: 5px solid var(--success-color);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .info-card {
+            background: var(--light-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .info-card strong {
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        ul { 
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+        
+        li { 
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        .footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9em;
+            padding: 30px 0;
+            border-top: 1px solid var(--border-color);
+            margin-top: 50px;
+        }
+        
+        .footer .build-info {
+            margin-top: 20px;
+            font-size: 0.8em;
+            background: var(--light-bg);
+            padding: 15px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 500;
+            margin: 5px 5px 5px 0;
+        }
+        
+        .badge.warning {
+            background: var(--warning-color);
+            color: #333;
+        }
+        
+        .badge.success {
+            background: var(--success-color);
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            
+            .header {
+                margin: -15px -15px 30px -15px;
+                padding: 30px 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔐 Politique de Confidentialité</h1>
+        <div class="subtitle">Zinya - Version Test Alpha</div>
+        <div style="margin-top: 15px;">
+            <span class="badge warning">Test Fermé</span>
+            <span class="badge">Google Play</span>
+            <span class="badge success">RGPD Conforme</span>
+        </div>
+    </div>
+
+    <div class="highlight">
+        <strong>⚠️ IMPORTANT :</strong> Cette politique concerne uniquement la version de test de l'application Zinya destinée aux tests fermés alpha sur Google Play Store. Cette version est réservée aux testeurs autorisés uniquement.
+    </div>
+
+    <div class="info-grid">
+        <div class="info-card">
+            <strong>📅 Dernière mise à jour</strong>
+            24 juillet 2025
+        </div>
+        <div class="info-card">
+            <strong>📱 Version de l'app</strong>
+            1.0.0 (Test Alpha)
+        </div>
+        <div class="info-card">
+            <strong>📦 Package ID</strong>
+            com.zinya.app.test
+        </div>
+        <div class="info-card">
+            <strong>🏪 Canal de distribution</strong>
+            Test fermé alpha
+        </div>
+    </div>
+
+    <h2>📱 1. À propos de cette application de test</h2>
+    <p>
+        <strong>Zinya (Test)</strong> est une version de développement destinée exclusivement aux tests fermés alpha des fonctionnalités d'abonnement et des features principales de l'application. Cette version permet de valider les fonctionnalités avant le lancement public et est réservée aux testeurs autorisés uniquement.
+    </p>
+
+    <h2>📊 2. Données collectées lors des tests</h2>
+    
+    <h3>2.1 🔐 Données d'authentification</h3>
+    <ul>
+        <li><strong>Identifiants :</strong> Email, nom d'utilisateur</li>
+        <li><strong>Tokens :</strong> Tokens d'authentification temporaires (durée limitée)</li>
+        <li><strong>Profil :</strong> Informations de profil de base (nom, préférences)</li>
+        <li><strong>Sessions :</strong> Données de session pour maintenir la connexion</li>
+    </ul>
+
+    <h3>2.2 📈 Données d'utilisation et de test</h3>
+    <ul>
+        <li><strong>Navigation :</strong> Pages visitées, interactions utilisateur</li>
+        <li><strong>Performance :</strong> Temps de chargement, réactivité de l'interface</li>
+        <li><strong>Erreurs :</strong> Rapports de bugs et dysfonctionnements</li>
+        <li><strong>Technique :</strong> Informations d'appareil (OS, version, modèle)</li>
+        <li><strong>Feedback :</strong> Commentaires et retours des testeurs</li>
+    </ul>
+
+    <h3>2.3 💳 Données de test des abonnements</h3>
+    <ul>
+        <li><strong>Transactions fictives :</strong> Historique des achats de test (Google Play Billing)</li>
+        <li><strong>Statuts d'abonnement :</strong> États des abonnements factices</li>
+        <li><strong>Validation de paiement :</strong> Tests des fonctionnalités de billing</li>
+        <li><strong>Produits de test :</strong> zinya_monthly_test, zinya_yearly_test</li>
+    </ul>
+
+    <h2>🎯 3. Utilisation des données</h2>
+    <p>Les données collectées pendant cette phase de test sont utilisées <strong>exclusivement</strong> pour :</p>
+    <ul>
+        <li>🐛 <strong>Debug :</strong> Identifier et corriger les bugs et dysfonctionnements</li>
+        <li>💰 <strong>Abonnements :</strong> Tester et valider les fonctionnalités d'abonnement</li>
+        <li>🎨 <strong>UX/UI :</strong> Améliorer l'expérience utilisateur et l'interface</li>
+        <li>⚡ <strong>Performance :</strong> Analyser et optimiser les performances techniques</li>
+        <li>🚀 <strong>Production :</strong> Préparer la version finale pour le lancement public</li>
+    </ul>
+
+    <h2>🔒 4. Sécurité et protection des données</h2>
+    <ul>
+        <li>🔐 <strong>Chiffrement :</strong> Toutes les communications sont chiffrées (HTTPS/TLS 1.3)</li>
+        <li>🏰 <strong>Serveurs sécurisés :</strong> Données stockées sur infrastructure sécurisée</li>
+        <li>👥 <strong>Accès limité :</strong> Seule l'équipe de développement autorisée y a accès</li>
+        <li>🏝️ <strong>Environnement isolé :</strong> Séparation complète avec les données de production</li>
+        <li>👁️ <strong>Surveillance :</strong> Monitoring des accès et des activités suspectes</li>
+        <li>🔄 <strong>Backups sécurisés :</strong> Sauvegardes chiffrées et versionnées</li>
+    </ul>
+
+    <h2>🗑️ 5. Suppression automatique des données</h2>
+    <div class="highlight">
+        <strong>⏰ Garantie de suppression :</strong> Toutes les données de test seront automatiquement supprimées dans les cas suivants :
+        <ul style="margin-top: 15px;">
+            <li>📅 <strong>Fin des tests :</strong> À la fin de la période de tests alpha (maximum 90 jours)</li>
+            <li>🚀 <strong>Mise en production :</strong> Lors du passage en version de production</li>
+            <li>📧 <strong>Demande immédiate :</strong> Sur demande du testeur (sous 48h)</li>
+            <li>🛑 <strong>Arrêt du programme :</strong> En cas d'arrêt du programme de test</li>
+            <li>🔄 <strong>Purge automatique :</strong> Nettoyage automatique tous les 30 jours</li>
+        </ul>
+    </div>
+
+    <h2>👥 6. Partage des données</h2>
+    <p>Vos données de test ne sont <strong>jamais</strong> partagées avec des tiers commerciaux. L'accès est strictement limité à :</p>
+    <ul>
+        <li>👨‍💻 <strong>Équipe Zinya :</strong> Développeurs et testeurs autorisés uniquement</li>
+        <li>🔧 <strong>Services techniques :</strong> auth.zenyaa.com (authentification), serveurs de test</li>
+        <li>🏪 <strong>Google Play Console :</strong> Uniquement pour les données de test des abonnements</li>
+        <li>📊 <strong>Analytics anonymes :</strong> Données agrégées et anonymisées pour les performances</li>
+    </ul>
+
+    <h2>⚖️ 7. Vos droits en tant que testeur (RGPD)</h2>
+    <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+    <ul>
+        <li>👀 <strong>Droit d'accès :</strong> Consulter toutes les données vous concernant</li>
+        <li>✏️ <strong>Droit de rectification :</strong> Corriger des informations incorrectes</li>
+        <li>🗑️ <strong>Droit à l'effacement :</strong> Demander la suppression immédiate de vos données</li>
+        <li>📦 <strong>Droit à la portabilité :</strong> Récupérer vos données dans un format lisible</li>
+        <li>🚫 <strong>Droit d'opposition :</strong> Vous opposer au traitement de vos données</li>
+        <li>🚪 <strong>Droit de retrait :</strong> Quitter le programme de test à tout moment</li>
+    </ul>
+
+    <h2>📧 8. Services tiers utilisés</h2>
+    <h3>8.1 🔐 Services d'authentification et techniques</h3>
+    <ul>
+        <li>🔑 <strong>Serveur d'authentification :</strong> auth.zenyaa.com (tokens sécurisés)</li>
+        <li>💳 <strong>Google Play Billing :</strong> Tests d'abonnement et transactions factices</li>
+        <li>📱 <strong>Expo/EAS :</strong> Plateforme de développement et déploiement mobile</li>
+        <li>📊 <strong>Services de monitoring :</strong> Suivi des performances (données anonymisées)</li>
+        <li>☁️ <strong>Infrastructure cloud :</strong> Serveurs de test sécurisés</li>
+    </ul>
+
+    <h2>🌍 9. Transferts et localisation des données</h2>
+    <p>
+        📍 Les données de test peuvent être traitées sur des serveurs situés dans l'<strong>Union Européenne</strong> principalement, avec des serveurs de sauvegarde sécurisés. Tous les transferts éventuels respectent strictement les réglementations RGPD en vigueur avec des garanties appropriées et des accords de protection des données.
+    </p>
+
+    <h2>📱 10. Permissions et données mobiles</h2>
+    <p>L'application peut accéder aux éléments suivants sur votre appareil :</p>
+    <ul>
+        <li>🌐 <strong>Internet :</strong> Connexion aux services de test et authentification</li>
+        <li>📊 <strong>Informations d'appareil :</strong> Tests de compatibilité et optimisation</li>
+        <li>💳 <strong>Google Play Billing :</strong> Fonctionnalités d'abonnement et achats de test</li>
+        <li>💾 <strong>Stockage local :</strong> Cache, préférences utilisateur et données offline</li>
+        <li>📷 <strong>Caméra/Photos :</strong> Si applicable pour les tests de fonctionnalités</li>
+    </ul>
+
+    <h2>🔄 11. Modifications de cette politique</h2>
+    <p>
+        Cette politique peut être mise à jour pendant la phase de test pour refléter les changements dans le programme de test. <strong>Les testeurs seront notifiés par email</strong> de tout changement significatif avec un préavis de 7 jours minimum.
+    </p>
+
+    <h2>⏰ 12. Durée de conservation</h2>
+    <p>
+        📅 Les données de test sont conservées uniquement le temps nécessaire aux tests, avec une <strong>durée maximale de 90 jours</strong> après la fin du programme de test alpha. Un nettoyage automatique est effectué tous les 30 jours pour supprimer les données obsolètes.
+    </p>
+
+    <div class="contact">
+        <h2>📞 13. Contact et support</h2>
+        <p>Pour toute question concernant cette politique ou vos données de test :</p>
+        
+        <div class="info-grid" style="margin-top: 20px;">
+            <div class="info-card">
+                <strong>🔐 Questions confidentialité</strong>
+                privacy-test@zinya.com
+            </div>
+            <div class="info-card">
+                <strong>🛠️ Support technique</strong>
+                dev@zinya.com
+            </div>
+            <div class="info-card">
+                <strong>⚖️ Responsable données (DPO)</strong>
+                dpo@zinya.com
+            </div>
+            <div class="info-card">
+                <strong>🧪 Support testeurs</strong>
+                alpha-test@zinya.com
+            </div>
+        </div>
+        
+        <p style="margin-top: 20px;">
+            <strong>⏱️ Réponse garantie :</strong> Nous nous engageons à répondre à toute demande concernant vos données dans un délai maximum de <strong>72 heures</strong> (jours ouvrables).
+        </p>
+    </div>
+
+    <div class="footer">
+        <p><strong>© 2025 Zinya - Version Test Alpha</strong><br>
+        Politique de Confidentialité v1.0.0 - Tests fermés Google Play<br>
+        <em>Cette politique est spécifique à la version de test et diffère de la politique de production.</em>
+        </p>
+        
+        <div class="build-info">
+            <strong>🔧 Informations techniques :</strong><br>
+            <strong>ID Build :</strong> 22e423e8-a377-48df-86e9-200dcd87bbb5<br>
+            <strong>Package :</strong> com.zinya.app.test<br>
+            <strong>Canal :</strong> Test fermé alpha<br>
+            <strong>Dernière mise à jour :</strong> 24 juillet 2025
+        </div>
+    </div>
+</body>
+</html>
